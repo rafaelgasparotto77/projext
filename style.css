@@ -1,64 +1,261 @@
-<!DOCTYPE html>
-<html Lang="pt-BR"> 
-    <head>
-        <meta charset="UTF-8">
-        <title>Curso Água Fonte de Vida</title>
-        <link href="assets/css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div id="home" class="navbar"></div>
-        <div>
-            <img src="MATERIAIS - ÁGUA FONTE DE VIDA/Sem título.png" alt="Imagem da logo do curso água fonte de vida" class="imagem_topo_curso"> 
-        </div>
-        <div>
-            <a href="#home" class="botao_home">HOME</a> <!--Botão da home por enquanto esta linkado com o inicio da página-->
-            <a href="#sobre" class="botao_sobre">SOBRE</a>
-            <a href="#projetos" class="botao_projetos">PROJETOS</a>
-            <a href="#videos" class="botao_videos">VÍDEOS</a>
-            <a href="#blog" class="botao_blog">BLOG</a>
-            <a href="#contato" class="botao_contato">CONTATO</a>
-        </div>
-        <div id="sobre">
-            <h class="titulo_sobre">SOBRE</h>
-            <hr class="linha_1">
-            <pre class="texto_sobre">
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            </pre>
-        </div>
-        <div>
-            <img src="MATERIAIS - ÁGUA FONTE DE VIDA/1-removebg-preview.png" alt="Imagem da loga da Pastoral da Ecologia Integral" class="imagem_meio">
-        </div>
-        <div id="projetos">
-            <h class="titulo_projetos">PROJETOS</h>
-            <hr class="linha_2">
-            <pre class="texto_projetos">
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            </pre>
-        </div>
+.imagem_topo_curso {
+    position: absolute;
+    width: 1024px;
+    height: 287.93px;
+    left: 0px;
+    top: 51px;
+}
+
+.navbar{
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+
+    background: #1272A8;
+}
+
+.botao_home{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 609px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.botao_sobre{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 672px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.botao_projetos{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 735px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.botao_videos{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 819px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.botao_blog{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 890px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.botao_contato{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 945px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.titulo_sobre{
+    position: absolute;
+    width: 308px;
+    height: 17px;
+    left: 455px;
+    top: 380px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #1272A8;
+}
+
+.linha_1{
+    position: absolute;
+    width: 382px;
+    height: 0px;
+    left: 321px;
+    top: 418.02px;
+
+    border: 1px solid #1272A8;
+    transform: rotate(-0.15deg);
+}
+
+.texto_sobre{
+    position: absolute;
+    width: 722px;
+    height: 263px;
+    left: 155px;
+    top: 421px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imagem_meio{
+    position: absolute;
+    width: 149px;
+    height: 151px;
+    left: 442px;
+    top: 666px;
+}
+
+.titulo_projetos{
+    position: absolute;
+    width: 308px;
+    height: 17px;
+    left: 444px;
+    top: 885px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #1272A8;
+}
+
+.linha_2{
+    position: absolute;
+    width: 382px;
+    height: 0px;
+    left: 328px;
+    top: 922.02px;
+
+    border: 1px solid #1272A8;
+    transform: rotate(-0.15deg);
+}
+
+.texto_projetos{
+    position: absolute;
+    width: 722px;
+    height: 263px;
+    left: 155px;
+    top: 929.02px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.link_videos{
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 233px;
+    top: 1660px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
 
 
 
+.link_blog{
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 754px;
+    top: 1660px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
 
 
+.link_instagram{
+    position: absolute;
+    width: 177px;
+    height: 30px;
+    top: 2335px;
+    left: 377px;
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 
-
-
-
-
-
-
-
-
-
-
-
-        <a href="https://www.youtube.com/playlist?list=PL4Ebb9dlYpzeUahCI9dlxnpDEI_e-4Rss" target="_blank" class="link_videos">VÍDEOS</a>
-        <a href="http://www.ecologiaintegralsul1cnbb.blogspot.com/" target="_blank" class="link_blog">BLOG</a>
-        <a href="http://www.instagram.com.br/ecologiaintegralsul1/" target="_blank" class="link_instagram">Instagram</a>
-    </body>
-</html>
+    color: #FFFFFF;
+}
