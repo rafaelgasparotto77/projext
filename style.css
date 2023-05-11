@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html Lang="pt-BR"> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Água Fonte de Vida</title>
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="home" class="navbar"></div>
+        <div>
+            <img src="MATERIAIS - ÁGUA FONTE DE VIDA/Sem título.png" alt="Imagem da logo do curso água fonte de vida" class="imagem_topo_curso"> 
+        </div>
+        <div>
+            <a href="#home" class="botao_home">HOME</a> <!--Botão da home por enquanto esta linkado com o inicio da página-->
+            <a href="#sobre" class="botao_sobre">SOBRE</a>
+            <a href="#projetos" class="botao_projetos">PROJETOS</a>
+            <a href="#videos" class="botao_videos">VÍDEOS</a>
+            <a href="#blog" class="botao_blog">BLOG</a>
+            <a href="#contato" class="botao_contato">CONTATO</a>
+        </div>
+        <div id="sobre">
+            <h class="titulo_sobre">SOBRE</h>
+            <hr class="linha_1">
+            <pre class="texto_sobre">
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            </pre>
+        </div>
+        <div>
+            <img src="MATERIAIS - ÁGUA FONTE DE VIDA/1-removebg-preview.png" alt="Imagem da loga da Pastoral da Ecologia Integral" class="imagem_meio">
+        </div>
+        <div id="projetos">
+            <h class="titulo_projetos">PROJETOS</h>
+            <hr class="linha_2">
+            <pre class="texto_projetos">
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            </pre>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a href="https://www.youtube.com/playlist?list=PL4Ebb9dlYpzeUahCI9dlxnpDEI_e-4Rss" target="_blank" class="link_videos">VÍDEOS</a>
+        <a href="http://www.ecologiaintegralsul1cnbb.blogspot.com/" target="_blank" class="link_blog">BLOG</a>
+        <a href="http://www.instagram.com.br/ecologiaintegralsul1/" target="_blank" class="link_instagram">Instagram</a>
+    </body>
+</html>
