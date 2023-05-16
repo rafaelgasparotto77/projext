@@ -151,6 +151,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
+    text-align: center;
 
     color: #000000;
 
@@ -204,6 +205,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
+    text-align: center;
 
     color: #000000;
 }
@@ -220,16 +222,84 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+    background: #1272A8;
+    border-radius: 30px;
+}
+
+.titulo_video{ 
+    position: absolute;
+    width: 308px;
+    height: 17px;
+    left: 198px;
+    top: 1543px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #1272A8;
+}
+
+.texto_video{
+    position: absolute;
+    width: 219px;
+    height: 53px;
+    left: 150px;
+    top: 1595px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
 
     color: #000000;
 }
 
 
+.titulo_blog{
+    position: absolute;
+    width: 308px;
+    height: 17px;
+    left: 730px;
+    top: 1543px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #1272A8;
+}
+
+.texto_blog{
+    position: absolute;
+    width: 282px;
+    height: 47px;
+    left: 631px;
+    top: 1591px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
 
 .link_blog{
     position: absolute;
     width: 56px;
-    height: 23px;
+    height: 28px;
     left: 754px;
     top: 1660px;
 
@@ -238,11 +308,50 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
+    text-align: center;
 
     color: #000000;
-
+    background: #1272A8;
+    border-radius: 30px;
 }
 
+.linha_3{
+    position: absolute;
+    width: 382px;
+    height: 0px;
+    left: 328px;
+    top: 1561px;
+
+    border: 1px solid #1272A8;
+    transform: rotate(-0.15deg);
+}
+
+.titulo_contato{
+    position: absolute;
+    width: 308px;
+    height: 29px;
+    left: 446px;
+    top: 1746px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #1272A8;
+}
+
+.linha_4{
+    position: absolute;
+    width: 382px;
+    height: 0px;
+    left: 328px;
+    top: 1781.02px;
+
+    border: 1px solid #1272A8;
+    transform: rotate(-0.15deg);
+}
 
 .link_instagram{
     position: absolute;
@@ -258,4 +367,66 @@
     line-height: 24px;
 
     color: #FFFFFF;
+    background: #1272A8
+}
+
+.fone{
+    position: absolute;
+    width: 153px;
+    height: 31px;
+    left: 63px;
+    top: 2296px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    background: #1272A8
+}
+
+.whatsapp{
+    position: absolute;
+    width: 177px;
+    height: 31px;
+    left: 376px;
+    top: 2298px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    background: #1272A8
+}
+
+.email{
+    position: absolute;
+    width: 177px;
+    height: 30px;
+    left: 63px;
+    top: 2338px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    background: #1272A8
+}
+
+.fundo{
+    position: absolute;
+    width: 1024px;
+    height: 96px;
+    left: 0px;
+    top: 2282px;
+
+    background: #1272A8;
 }
